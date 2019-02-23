@@ -1,0 +1,17 @@
+.height30p{
+  height: 30px;
+}
+.height135p{
+  height: 135px;
+}
+
+/*borders*/
+.full_b{
+  border-style: inset outset outset inset;
+}
+.right_b{
+  border-right: outset;
+}
+.left_b{
+  border-left: inset;
+}

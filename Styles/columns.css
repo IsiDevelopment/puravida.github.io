@@ -1,0 +1,91 @@
+.column30p{
+  float: left;
+  width: 30%;
+  padding: 0px;
+  height: auto;
+}
+.column70p{
+  float: left;
+  width: 70%;
+  padding: 0px;
+  height: auto;
+}
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 0px;
+  height: auto;
+}
+.column3 {
+  float: left;
+  width: 33.3%;
+  padding: 0px;
+  height: auto;
+}
+.column4 {
+  float: left;
+  width: 25%;
+  padding: 0px;
+  height: auto;
+}
+.column4_space {
+  float: left;
+  width: 21.875%;
+  padding: 0px;
+  height: auto;
+}
+.column2_5p {
+  float: left;
+  width: 2.5%;
+  padding: 0px;
+  height: auto;
+}
+.column5p {
+  float: left;
+  width: 5%;
+  padding: 0px;
+  height: auto;
+}
+.column10p {
+  float: left;
+  width: 10%;
+  padding: 0px;
+  height: auto;
+}
+.column6 {
+  float: left;
+  width: 16.6%;
+  padding: 0px;
+  height: auto;
+}
+.column h2{
+  text-align: center;
+}
+.column li{
+  text-align: left;
+  padding: 0 50px ;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.circle_margin{
+  border: 2px solid #2E2E2E;
+  padding: 10px;
+  border-radius: 25px;
+  width: 80%;
+  text-align: center;
+}
+@media screen and (max-width: 800px) {
+  .column2_5p{
+    width: 0%;
+  }
+  .column4_space{
+    width: 90%;
+  }
+  .row{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

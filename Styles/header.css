@@ -1,0 +1,44 @@
+#header{
+  background-color: #318853;
+  border-width: 0;
+  margin: auto;
+  padding: 20px;
+}
+#h_item a{
+  color: white;
+  -webkit-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+  transition: : all 700ms ease;
+}
+#h_item a:hover{
+  color: white;
+  background-color: #9fac43;
+  border-radius: 50px;
+}
+#h_item a:visited{
+  color: white;
+  background-color: #9fac43;
+  border-radius: 50px;
+}
+.dropdown:hover .dropdown-menu {display: block;}
+#h_item ul li a{
+  color: white;
+  background-color: #9fac43;
+  height: 40px;
+  -webkit-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+  transition: all 700ms ease;
+}
+#ea a:hover{
+  color: #9fac43;
+  background-color: white;
+}
+.active{
+  background: #9fac13;
+  border-radius: 50px;
+}
+@media screen and (min-width: 800px) {
+  #headers{
+    height: 66px;
+  }
+}
