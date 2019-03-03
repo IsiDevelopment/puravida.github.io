@@ -41,7 +41,24 @@
 }
 .container_col:hover .middle_col {
   opacity: 1;
-}/*
+}
+.container_col_80p {
+  position: relative;
+  width: 100%;
+}
+.image_p{
+  opacity: 1;
+  position: relative;
+  width: 100%;
+  border-radius: 50px 50px 0 0;
+}
+.container_col_80p:hover .image_p {
+  opacity: 0.5;
+}
+.container_col_80p:hover .middle_col {
+  opacity: 1;
+}
+/*
 @media screen and (max-width: 800px){
   .image_center{
     margin-left: 0;

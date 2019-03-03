@@ -10,9 +10,15 @@
   padding: 0px;
   height: auto;
 }
-.column2 {
+.column2items {
   float: left;
-  width: 50%;
+  width: 35%;
+  padding: 0px;
+  height: auto;
+}
+.column2items_space{
+  float: left;
+  width: 10%;
   padding: 0px;
   height: auto;
 }
@@ -35,6 +41,12 @@
   height: auto;
 }
 .column2_5p {
+  float: left;
+  width: 2.5%;
+  padding: 0px;
+  height: auto;
+}
+.column2_5p_ad {
   float: left;
   width: 2.5%;
   padding: 0px;
@@ -80,6 +92,9 @@
 @media screen and (max-width: 800px) {
   .column2_5p{
     width: 4%;
+  }
+  .column2_5p_ad{
+    width: 4.5%;
   }
   .column4_space{
     width: 44%;
