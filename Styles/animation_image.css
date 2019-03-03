@@ -3,6 +3,7 @@
   don't put your mouse over it*/
   animation: pulse 1.5s;
   animation-iteration-count: 1;
+  border-radius: 50px;
 }
 @keyframes pulse {
   from {

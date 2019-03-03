@@ -15,3 +15,15 @@
 .left_b{
   border-left: inset;
 }
+
+.border_50{
+  border-radius: 50px;
+}
+
+.width_80{
+  width: 80%;
+}
+
+.div_center{
+  margin: auto;
+}

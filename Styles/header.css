@@ -29,9 +29,13 @@
   -o-transition: all 700ms ease;
   transition: all 700ms ease;
 }
-#ea a:hover{
+#ea a:visited{
   color: #9fac43;
   background-color: white;
+}
+#ea a:hover{
+  color: white;
+  background-color: #9fac43;
 }
 .active{
   background: #9fac13;

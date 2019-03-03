@@ -79,10 +79,10 @@
 }
 @media screen and (max-width: 800px) {
   .column2_5p{
-    width: 0%;
+    width: 4%;
   }
   .column4_space{
-    width: 90%;
+    width: 44%;
   }
   .row{
     margin-left: 0;
