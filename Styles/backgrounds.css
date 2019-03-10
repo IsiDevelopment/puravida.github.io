@@ -25,6 +25,10 @@
   background-color: #373839;
   background-image: linear-gradient(to right, #666666 , #303030);
 }
+.bg_orange_g{
+  background-color: #373839;
+  background-image: linear-gradient(#E77E27 , #E7AA27);
+}
 
 .bg_gray1{
   background: #F4F7F6;
@@ -45,4 +49,8 @@
 
 .bg_brown01{
   background: #e3dbd7;
+}
+
+.bg_orange01{
+  background: #E77E27;
 }

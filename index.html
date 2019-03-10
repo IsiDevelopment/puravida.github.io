@@ -11,6 +11,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Yantramanav:100" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css'>
   <link href="Styles/header.css" rel="stylesheet"/>
   <link href="Styles/Font.css" rel="stylesheet"/>
   <link href="Styles/images.css" rel="stylesheet"/>
@@ -19,6 +20,7 @@
   <link href="Styles/backgrounds.css" rel="stylesheet"/>
   <link href="Styles/animation_image.css" rel="stylesheet"/>
   <link href="Styles/helpers.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="Styles/owl_carousel.css">
   <title>Pura Vida</title>
 </head>
 <body>
@@ -32,7 +34,7 @@
           <span class="icon-bar"></span>
         </button>
         <div id="h_item">
-          <a class="navbar-brand active">
+          <a class="navbar-brand active_title">
   		      <b>Pura Vida</b>
           </a>
         </div>
@@ -44,78 +46,36 @@
               Productos<span class="caret"></span>
             </a>
             <ul class="dropdown-menu">
-              <li id="ea"><a href="#bars">Barras</a></li>
-              <li id="ea"><a href="#pinole">Pinole</a></li>
-              <li id="ea"><a href="#beers">Cerveza Artesanal</a></li>
-              <li id="ea"><a href="#chocolate">Chocolate</a></li>
+              <li id="ea"><a href="#superalimentos">Superalimentos</a></li>
+              <li id="ea"><a href="#lechadas">Lechadas Vegetables</a></li>
+              <li id="ea"><a href="#cerveza">Cerveza Artesanal</a></li>
+              <li id="ea"><a href="#tabaco">Tabaco</a></li>
             </ul>
           </li>
           <li class="dropdown" id="h_item">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-              Eventos<span class="caret"></span>
+              Servicios
             </a>
-            <!--<ul class="dropdown-menu">
-              <li id="ea"><a href="#">Comit&eacute; Ejecutivo</a></li>
-              <li id="ea"><a href="#">Consejo Directivo</a></li>
-              <li id="ea"><a href="#">Comisiones</a></li>
-              <li id="ea"><a href="#">Grupo de Productores</a></li>
-              <li id="ea"><a href="#">Afiliados</a></li>
-              <li id="ea"><a href="#">Personal Camimex</a></li>
-            </ul>-->
           </li>
           <li class="dropdown" id="h_item">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-              Sustentabilidad<span class="caret"></span>
+              Sostenibilidad
             </a>
-            <!--<ul class="dropdown-menu">
-              <li id="ea"><a href="#">Medio Ambiente</a></li>
-              <li id="ea"><a href="#">Desarrollo Comunitario</a></li>
-            </ul>-->
           </li>
           <li class="dropdown" id="h_item">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-              Recetas<span class="caret"></span>
+              Qui&eacute;nes somos
             </a>
-            <!--<ul class="dropdown-menu">
-              <li id="ea"><a href="#">Leyes</a></li>
-              <li id="ea"><a href="#">Normas</a></li>
-              <li id="ea"><a href="#">Acuerdos</a></li>
-            </ul>-->
           </li>
           <li class="dropdown" id="h_item">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-              Experiencia<span class="caret"></span>
+              Recetario
             </a>
-            <!--<ul class="dropdown-menu">
-              <li id="ea"><a href="#">Informe Anual</a></li>
-              <li id="ea"><a href="#">Revista CAMIMEX</a></li>
-              <li id="ea"><a href="#">Suplementos</a></li>
-              <li id="ea"><a href="#">Otras Publicaciones</a></li>
-              <li id="ea"><a href="#">Manuales Rescate</a></li>
-            </ul>-->
           </li>
           <li class="dropdown" id="h_item">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-              Qui&eacute;nes somos<span class="caret"></span>
+            <a href="#">
+              Eventos</span>
             </a>
-            <!--<ul class="dropdown-menu">
-            <li id="ea"><a href="#">Diario Informativo</a></li>
-            <li id="ea"><a href="#">Comunicados</a></li>
-            <li id="ea"><a href="#">Videos</a></li>
-            <li id="ea"><a href="#">Fotogaler&iacute;a</a></li>
-            <li id="ea"><a href="#">Uso de los Metales</a></li>
-            <li id="ea"><a href="#">Cronolog&iacute;a de la Miner&iacute;a</a></li>
-            <li id="ea"><a href="#">Presentaciones</a></li>
-            <li id="ea"><a href="#">Glosario</a></li>
-          </ul>-->
-          </li>
-          <li class="dropdown" id="h_item">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-              Cont&aacute;ctanos<span class="caret"></span>
-            </a>
-            <!--<ul class="dropdown-menu">
-              <li id="ea"><a href="#">Impuestos</a></li>
-            </ul>-->
           </li>
         </ul>
       </div>
@@ -123,14 +83,7 @@
   </nav>
 
   <div style="position: relative" id="courses">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause>
-      <!--
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause>
       <div>
         <img src="Images/logo.png" class="image_logo" />
       </div>
@@ -151,19 +104,141 @@
           </div>
         </div>
       </div>
-      <!--
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
-      -->
     </div>
   </div>
 
+  <div class="bg_orange_g t_white font_25p">
+    <div id="superalimentos">
+      <br/>
+      <p class="t_center">Superalimentos</p>
+      <div class="container" style="font-size: 10px;">
+        <div class="owl-carousel text_foot" id="super">
+          <div>
+            <img src="Images/pinole1.jpg">
+            <a href="#" id="a_ref">
+              <p class="t_white">Rawnie de Cacao ori</p>
+            </a>
+          </div>
+          <div>
+            <img src="Images/pinole2.jpg">
+            <a href="#" id="a_ref">
+              <p class="t_white">Rawnie de Cacao</p>
+            </a>
+          </div>
+          <div>
+            <img src="Images/pinole3.jpg">
+            <a href="#" id="a_ref">
+              <p class="t_white">Rawnie de Cacao</p>
+            </a>
+          </div>
+          <div>
+            <img src="Images/pinole4.jpg">
+            <a href="#" id="a_ref">
+              <p class="t_white">Rawnie de Cacao</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="lechadas">
+      <br/>
+      <p class="t_center">Leches Vegetales</p>
+      <div class="container">
+        <div class="owl-carousel text_foot" id="milk" style="display: block">
+          <div>
+            <img src="Images/pinole2.jpg">
+            <a href="#" id="a_ref">
+              <p class="t_white">Rawnie de Cacao</p>
+            </a>
+          </div>
+          <div>
+            <img src="Images/pinole2.jpg">
+            <a href="#" id="a_ref">
+              <p class="t_white">Rawnie de Cacao</p>
+            </a>
+          </div>
+          <div>
+            <img src="Images/pinole3.jpg">
+            <a href="#" id="a_ref">
+              <p class="t_white">Rawnie de Cacao</p>
+            </a>
+          </div>
+          <div>
+            <img src="Images/pinole4.jpg">
+            <a href="#" id="a_ref">
+              <p class="t_white">Rawnie de Cacao</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <br/>
+    </div>
+    <div id="cerveza">
+      <br/>
+      <p class="t_center">Cerveza Artesanal</p>
+      <div class="container">
+        <div class="owl-carousel text_foot" id="beer" style="display: block">
+          <div>
+            <img src="Images/pinole1.jpg">
+            <a href="#" id="a_ref">
+              <p class="t_white">Rawnie de Cacao</p>
+            </a>
+          </div>
+          <div>
+            <img src="Images/pinole2.jpg">
+            <a href="#" id="a_ref">
+              <p class="t_white">Rawnie de Cacao</p>
+            </a>
+          </div>
+          <div>
+            <img src="Images/pinole3.jpg">
+            <a href="#" id="a_ref">
+              <p class="t_white">Rawnie de Cacao</p>
+            </a>
+          </div>
+          <div>
+            <img src="Images/pinole4.jpg">
+            <a href="#" id="a_ref">
+              <p class="t_white">Rawnie de Cacao</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="tabaco">
+      <br/>
+      <p class="t_center">Tabaco</p>
+      <div class="container">
+        <div class="owl-carousel text_foot" id="tabacco" style="display: block">
+          <div>
+            <img src="Images/pinole1.jpg">
+            <a href="#" id="a_ref">
+              <p class="t_white">Rawnie de Cacao</p>
+            </a>
+          </div>
+          <div>
+            <img src="Images/pinole2.jpg">
+            <a href="#" id="a_ref">
+              <p class="t_white">Rawnie de Cacao</p>
+            </a>
+          </div>
+          <div>
+            <img src="Images/pinole3.jpg">
+            <a href="#" id="a_ref">
+              <p class="t_white">Rawnie de Cacao</p>
+            </a>
+          </div>
+          <div>
+            <img src="Images/pinole4.jpg">
+            <a href="#" id="a_ref">
+              <p class="t_white">Rawnie de Cacao</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--
   <div id="bars" class="bg_green02">
     <br/>
     <p class="t_title"><b>Barras</b></p>
@@ -554,19 +629,15 @@
     </div>
     <br/>
   </div>
-  <!--
-  <div class="bg_gray3"><div class="container_col image_center bg_black2">
-    <img src="Images/informe4.png"class="move image_col"style="width: 10%;">
-    <div class="middle_col">
-    </div>
-  </div>
-  </div>
--->
+  -->
   <br>
   <br>
   <br>
   <footer
     <p><a href="#">Pura Vida</a></p>
   </footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js'></script>
+  <script src="JavaScript/owl_carousel.js"></script>
 </body>
 </html>

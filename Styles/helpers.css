@@ -19,6 +19,18 @@
 .border_50{
   border-radius: 50px;
 }
+#super div img{
+  border-radius: 15px;
+}
+#milk div img{
+  border-radius: 15px;
+}
+#beer div img{
+  border-radius: 15px;
+}
+#tabacco div img{
+  border-radius: 15px;
+}
 
 .width_80{
   width: 80%;
@@ -26,4 +38,9 @@
 
 .div_center{
   margin: auto;
+}
+
+#a_ref{
+  text-decoration: none;
+  background:none;
 }

@@ -32,6 +32,9 @@
 .font_25p{
   font-size: 40px;
 }
+.text_foot{
+  font-size: 20px;
+}
 @media screen and (max-width: 800px) {
   .column3{
     width: 100%;

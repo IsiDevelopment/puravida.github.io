@@ -1,5 +1,5 @@
 #header{
-  background-color: #318853;
+  background-color: #E77E27;
   border-width: 0;
   margin: auto;
   padding: 20px;
@@ -10,35 +10,39 @@
   -o-transition: all 700ms ease;
   transition: : all 700ms ease;
 }
+/*over title*/
 #h_item a:hover{
   color: white;
-  background-color: #9fac43;
+  background-color: #E7AA27;
   border-radius: 50px;
 }
+/*over header's items*/
 #h_item a:visited{
   color: white;
-  background-color: #9fac43;
+  background-color: #E7AA27;
   border-radius: 50px;
 }
 .dropdown:hover .dropdown-menu {display: block;}
 #h_item ul li a{
   color: white;
-  background-color: #9fac43;
+  background-color: #E7AA27;
   height: 40px;
   -webkit-transition: all 700ms ease;
   -o-transition: all 700ms ease;
   transition: all 700ms ease;
 }
+/*background of second level's items*/
 #ea a{
-  color: #9fac43 !important;
+  color: #E7AA27 !important;
   background: white !important;
 }
+/*over background of second level's items*/
 #ea a:hover{
   color: white !important;
-  background-color: #9fac43 !important;
+  background-color:#E7AA27 !important;
 }
-.active{
-  background: #9fac13;
+.active_title{
+  background: #E7AA27;
   border-radius: 50px;
 }
 @media screen and (min-width: 800px) {
