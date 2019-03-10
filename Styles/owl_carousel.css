@@ -1,6 +1,6 @@
 .owl-item > div {
   cursor: pointer;
-  margin: 6% 15% 6% 15%;
+  margin: 8% 15% 8% 15%;
   transition: margin 0.7s ease;
   border-radius: 15px;
 }
